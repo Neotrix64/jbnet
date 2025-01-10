@@ -2,8 +2,8 @@ function HeroBottom(){
     return(
         <div className="flex justify-center">
             <div className="absolute bg-white p-7 w-2/3 -bottom-8 z-10 text-black shadow-xl">
-            <div className="flex justify-between items-center">
-            <p className="text-2xl font-semibold">JobNet</p>
+            <div className="grid">
+            <p className="flex justify-center text-xl font-semibold tracking-widest">Great Partners of us</p>
             <div className="flex ">
                 <li className="list-none flex gap-5">
                     <ol>Browse jobs</ol>
