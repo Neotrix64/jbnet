@@ -4,7 +4,7 @@ function NavBar(){
             <div className="flex justify-between items-center">
             <p className="text-2xl font-semibold">JobNet</p>
             <div className="flex ">
-                <li className="list-none flex gap-5">
+                <li className="list-none flex gap-5 font-semibold tracking-wide">
                     <ol>Browse jobs</ol>
                     <ol>Services</ol>
                 </li>
