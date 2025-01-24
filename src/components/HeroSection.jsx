@@ -20,31 +20,29 @@ export default function HeroSection() {
             potential. We're here to help you every step of the way!
           </p>
           <div className="relative flex items-center ml-5">
-  <input 
-    type="text" 
-    className="w-3/4 p-4 rounded-full text-black text-xl" 
-    placeholder="Search your next opportunity..." 
-  />
-  <button 
-    className="absolute bg-blue-600 p-4 rounded-full left-96 font-bold"
-  >
-    Go
-  </button>
-</div>
+            <input
+              type="text"
+              className="w-3/4 p-4 rounded-full text-black text-xl"
+              placeholder="Search your next opportunity..."
+            />
+            <button className="absolute bg-blue-600 p-4 rounded-full left-96 font-bold">
+              Go
+            </button>
+          </div>
 
           <div className="flex gap-5 ml-5">
-          <button className="px-16 py-3 bg-blue-600 hover:bg-blue-700 hover:scale-110 ease-in-out duration-300  rounded-full font-semibold text-lg transition">
-            Contact Us!
-          </button>
-          <button className="px-16 py-3 bg-white hover:scale-110 ease-in-out duration-300 rounded-full font-semibold text-lg transition text-black">
-            Register
-          </button>
+            <button className="px-16 py-3 bg-blue-600 hover:bg-blue-700 hover:scale-110 ease-in-out duration-300  rounded-full font-semibold text-lg transition">
+              Contact Us!
+            </button>
+            <button className="px-16 py-3 bg-white hover:scale-110 ease-in-out duration-300 rounded-full font-semibold text-lg transition text-black">
+              Register
+            </button>
           </div>
         </div>
 
         {/* Modelo Spline */}
         <div className="absolute right-0 top-0 bottom-0 w-full hidden lg:w-1/2 lg:block">
-        <Spline scene="https://prod.spline.design/BnaCL7bWNBE3Gx3i/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/BnaCL7bWNBE3Gx3i/scene.splinecode" />
         </div>
       </div>
       <HeroBottom />
